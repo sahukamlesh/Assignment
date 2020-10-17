@@ -1,13 +1,14 @@
-function rohit(n,ar){
+function rohit(n, ar) { 
+
 let socks = {};
-let  = 0;
-for (let elem of ar) {
-socks[elem] = socks[elem] + 1 || 1;
-  if (socks[elem] % 2 == 0) {
-    pairs += 1;
+let count = 0;
+for (let item of ar) {
+socks[item] = socks[item] + 1 || 1;
+  if (socks[item] % 2 == 0) {
+    count += 1;
   }
 }
-return pairs;
+return count;
 }
 
 
